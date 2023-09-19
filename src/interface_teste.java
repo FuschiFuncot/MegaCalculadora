@@ -93,9 +93,10 @@ public class interface_teste extends JFrame {
 				lblIdade.setText(Integer.toString(idade));
 				String sit = ((idade>=16 && idade<18) || (idade>70))?"Adolescente":"Velho";
 				
-				lblSituaçao.setText(sit);
-			
+				lblSituaçao.setText(sit);			
 			}
+			
+			//testando
 		});
 		btnCalc.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		btnCalc.setBounds(144, 143, 136, 23);
